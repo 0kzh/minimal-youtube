@@ -1,0 +1,50 @@
+/* this will get overwritten on load */
+body {
+  display: none;
+}
+
+html, body {
+  height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo {
+  color: white;
+  fill: white;
+  width: 200px;
+}
+
+.search-input {
+  padding: 8px;
+  min-width: 250px;
+  border: 1px solid rgb(48, 48, 48);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background: rgb(18, 18, 18);
+  color: white;
+}
+
+.search-input:focus {
+  outline: none;
+  border: 1px solid rgb(28, 98, 185);
+}
+
+.search-group {
+  height: 40px;
+  display: flex;
+}
+
+.search-btn {
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  border-top-right-
