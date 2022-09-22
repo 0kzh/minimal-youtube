@@ -47,4 +47,53 @@ html, body {
   height: 40px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.08);
-  border-top-right-
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 0 16px;
+}
+
+.search-icon-container {
+  height: 24px;
+  width: 24px;
+  color: white;
+  fill: white;
+}
+
+#columns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#columns #secondary {
+  display: none;
+}
+
+#columns #primary {
+  max-width: fit-content;
+}
+
+#top-level-buttons-computed,
+#voice-search-button,
+ytd-mini-guide-renderer,
+#related,
+tp-yt-app-drawer,
+.ytd-masthead #buttons,
+#guide-button,
+[class="style-scope ytd-comments"] {
+  display: none !important;
+}
+
+.ytp-chrome-bottom {
+  width: calc(98%) !important;
+}
+
+ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
+  margin-left: 0 !important;
+}
+
+.html5-video-container, video {
+  width: 100% !important;
+  height: 100% !important;
+}
