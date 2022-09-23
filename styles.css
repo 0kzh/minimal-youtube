@@ -130,11 +130,9 @@ ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
   margin-left: 0 !important;
 }
 
-.html5-video-player:not(.ytp-fullscreen) .html5-video-container, .html5-video-player:not(.ytp-fullscreen) video {
+ytd-watch-flexy:not([theatre]):not([fullscreen]) .html5-video-container,
+ytd-watch-flexy:not([theatre]):not([fullscreen]) video {
   width: 100% !important;
   height: 100% !important;
-}
-
-video {
   left: 0 !important;
 }
