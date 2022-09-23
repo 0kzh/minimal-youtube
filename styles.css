@@ -130,7 +130,7 @@ ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
   margin-left: 0 !important;
 }
 
-.html5-video-container, video {
+.html5-video-player:not(.ytp-fullscreen) .html5-video-container, .html5-video-player:not(.ytp-fullscreen) video {
   width: 100% !important;
   height: 100% !important;
 }
