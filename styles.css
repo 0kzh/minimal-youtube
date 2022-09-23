@@ -134,3 +134,7 @@ ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
   width: 100% !important;
   height: 100% !important;
 }
+
+video {
+  left: 0 !important;
+}
