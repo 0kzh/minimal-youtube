@@ -4,6 +4,8 @@
 
 Minimal YouTube is a boost for the <a href="https://arc.net/">Arc browser</a> that replaces the YouTube UI with a minimal design containing no recommendations, shorts, or distractions.
 
+**This version implements three simple buttons linking to your subscriptions, liked videos and view history.**
+
 <p align="center">
   <img src=".screenshot.png" width="1080">
 </p>
