@@ -5,8 +5,9 @@ window.onload = function() {
     var bodyList = document.querySelector("body")
 
     var observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            if (oldHref != document.location.href) {
+        
+        mutations.forEach(function() {
+            if (oldHref !== document.location.href) {
                 oldHref = document.location.href;
                 replaceHomePage();
             }
